@@ -1,0 +1,172 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body {
+	background:#fff;
+	font:normal 12px/22px 宋体;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+.js {
+	width:90%;
+	margin:10px auto 0 auto;
+}
+.js p {
+	padding:5px 0;
+	font-weight:bold;
+	overflow:hidden;
+}
+.js p span {
+	float:right;
+}
+.js p span a {
+	color:black;
+	text-decoration:underline;
+}
+.js textarea {
+	height:50px;
+	width:98%;
+	padding:5px;
+	border:1px solid black;
+	border-top:2px solid black;
+	border-left:2px solid black;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.navBar {
+	position:fixed;
+	z-index:1;
+	background:white;
+	color:/*#fff*/black;
+	font-size: 5px;
+	height:40px;
+	line-height:40px;
+	margin-left: 280px;
+	margin-top: -10px;
+}
+.nav {
+	width:980px;
+	margin:0 auto;
+	font-family:"Microsoft YaHei",SimSun,SimHei;
+}
+.nav .m {
+	float:left;
+	position:relative;
+	border:1px solid white;
+	border-top:0;
+	border-bottom:0;
+	margin-left:-1px;
+}
+.nav h3 {
+	float:left;
+	font-size:100%;
+	font-weight:normal;
+	font-size:14px;
+	height:40px;
+	overflow:hidden;
+}
+.nav h3 a {
+	display:block;
+	color:black;/*平时字*/
+	padding:0 20px;
+	border-left:1px solid white;
+	vertical-align:top;
+}
+.nav .on {
+	border:0;
+}
+.nav .on h3 a {
+	background:white;
+	color:orange;
+	font-weight:bold;
+	border-top:1px solid white;
+}
+.nav .sub {
+	display:none;
+	width:60px;
+	padding:5px 10px 10px 10px;
+	position:absolute;
+	left:0;
+	top:40px;
+	background:white;
+	border:1px solid white;
+	border-top:0;
+}
+.nav .sub li {
+	height:20px;
+
+	line-height:20px;
+	padding:4px 0;
+	float:left;
+	width:80px;
+}
+.nav .sub li a {
+	display:block;
+	padding-left:6px;
+	background:url(images/icon.png) 0 9px no-repeat;
+	color:black;
+}
+.nav .sub li a:hover {
+	color:orange;
+}
+.nav #m7 .sub {
+	width:320px;
+	left:auto;
+	right:-1px;
+}
+
+/*#a{
+	width:1000px;
+	height: 1000px;
+	background-color: pink;
+}*/
+/*#pic1{
+	margin-top: -244px;
+	margin-left: 50px;
+}*/
+#pic2{
+	margin-top: -205px;
+	margin-left: 288px;
+}
+#m0{
+	margin-top: -13px;
+	margin-left: -300px;
+}
+/*#m00{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+*/#m10{
+		margin-top: -80px;
+	margin-left: 900px;
+}
+#picc{
+	margin-left: 630px;
+	margin-top: -400px;
+}
+#a0{
+margin-left: -840px;
+margin-top: 30px;
+}
+#a1{
+margin-left: -220px;
+margin-top: -170px;
+}
+#a2{
+	margin-left: 340px;
+margin-top: -170px;
+}
+#a3
+	{margin-left: 920px;
+margin-top: -175px;
+}
